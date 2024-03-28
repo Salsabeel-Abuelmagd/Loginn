@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #f73042;
+}
+body{
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+button , input[type="submit"]{
+  font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+
+ 
+
+/* @media (max-width:1050px) {
+  .Welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 11px 4px 0 #2d36430a;
+  }
+
+} */
+
+
+
+/*Welcome Page*/
+
+ .Welcome {
+    max-width: 1025px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 11px 4px 0 #2d36430a;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.Welcome .Welcome-image {
+    position: relative;
+}
+.Welcome .Welcome-image .up-image {
+     padding: 20px 0 100px 0; 
+    position: absolute;
+     bottom: 11px; 
+    left: 0;
+    text-align: center;
+    border-radius:16px ;
+    background: linear-gradient(to top,rgba(247, 48, 66, 0.65),rgba(247, 48, 66, 0) 100%);
+  }
+
+
+.Welcome .Welcome-image .up-image .download{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.Welcome .Welcome-image .up-image .download img {
+    cursor: pointer;
+}
+.Welcome .up-image p {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+.Welcome .logo {
+    position: absolute;
+    top: 36px;
+    left: 25px;
+}
+  
+
+

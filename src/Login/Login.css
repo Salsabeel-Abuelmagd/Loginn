@@ -1,0 +1,116 @@
+/*Login page */
+
+
+.login-text {
+    width: 358px;
+    margin: auto;
+}
+.login-text h1 {
+    color: #353535;
+    line-height: 28px;
+    text-align: center;
+}
+  .login-text p:first-of-type {
+    color: #616161;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 20px 0;
+    text-align: center;
+    width: 290px;
+    margin: auto;
+  }
+  
+  .login-text form {
+    margin: 30px 0 50px 0;
+  }
+  .login-text form label {
+    display: block;
+    text-align: right;
+    color: #353535;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+  .login-text form .cont {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  .login-text form input {
+    font-size: 16px;
+    width: 256px;
+    height: 56px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 1);
+    border: 1px solid gray;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #A5A5A5;
+    padding-right:40px ;
+  }
+  .login-text form .form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .login-text form .form-input .icon{
+    position: absolute;
+    right:15px;
+    color:#D6D6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-text form select {
+    background-color: rgba(250, 250, 250, 1);
+    text-align: right;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  
+ .login-text button.btn {
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    cursor: pointer;
+  }
+ .login-text p.que {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #848484;
+  }
+  .login-text .que a {
+    color: var(--main-color);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.login-text p.visitor {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 20px;
+    line-height: 35px;
+    color: var(--main-color);
+    cursor: pointer;
+    text-align: center;
+  }

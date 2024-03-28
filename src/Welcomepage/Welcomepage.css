@@ -1,0 +1,108 @@
+
+  .Welcome-text {
+    text-align: center;
+    width: 358px;
+    margin: auto;
+  }
+  .Welcome-text p:first-of-type {
+    font-weight: 700;
+    line-height: 35px;
+    color: #616161;
+    padding: 20px 0;
+    width: 290px;
+    margin: auto;
+  }
+  .Welcome-text a {
+    text-decoration: none;
+    display: block;
+  }
+  .Welcome-text a.newaccount {
+    color: #f9fbfc;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+  }
+  .Welcome-text a.login {
+    color: var(--main-color);
+    background-color: #feeaec;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+  }
+  .Welcome-text a.facebook,
+  a.google {
+    border: 1px solid #e1e1e1;
+    border-radius: 9px;
+    padding: 10px;
+    color: #202020;
+    margin-bottom: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .Welcome-text p:nth-of-type(2) {
+    font-weight: 700;
+    line-height: 35px;
+    color: #b3b3b3;
+  }
+  p.visitor {
+    font-weight: 700;
+    padding-top: 20px;
+    line-height: 35px;
+    color: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .Welcome-image {
+    position: relative;
+  }
+  .Welcome-image .up-image {
+    position: absolute;
+    bottom: 85px;
+    text-align: center;
+  }
+  .Welcome-image .up-image .download{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+  }
+  .Welcome-image .up-image .download img {
+    cursor: pointer;
+  }
+  .up-image p {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    position: absolute;
+    top: 36px;
+    left: 25px;
+  }
+
+.Welcome-text p.visitor {
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 19px;
+    color: var(--main-color);
+    cursor: pointer;
+    text-align: center;
+  }
